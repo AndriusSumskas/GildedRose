@@ -5,9 +5,9 @@ using System.Text;
 
 namespace GildedRose.Handlers
 {
-    public class ShopSuppliesHandler
+    public class SupplieChainHandler
     {
-        public ShopSuppliesHandler()
+        public SupplieChainHandler()
         {
         }
 
