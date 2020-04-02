@@ -4,8 +4,11 @@ using System.Text;
 
 namespace GildedRose.Constants
 {
-    public static class ItemMarket
+    public class ItemMarket
     {
+        public static int LowestQualityRange = 0;
+        public static int HighestQualityRange = 50;
+
         //Note: Later this method can be changed from static provide real time unique market items from DB or files  
         public static List<string> GetUniqueItemNames()
         {

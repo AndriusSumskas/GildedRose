@@ -74,10 +74,10 @@ namespace GildedRose.Handlers
         }
         private void CheckItemLimits(Item item)
         {
-            if (item.Quality > 50)
-                item.Quality = 50;
-            if (item.Quality < 0)
-                item.Quality = 0;
+            if (item.Quality > ItemMarket.HighestQualityRange)
+                item.Quality = ItemMarket.HighestQualityRange;
+            if (item.Quality < ItemMarket.LowestQualityRange)
+                item.Quality = ItemMarket.LowestQualityRange;
         }
     }
 }
